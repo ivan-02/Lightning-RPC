@@ -34,4 +34,7 @@ lncli --network=testnet payinvoice lntb500u1p3fejx8pp5xf93gqluwul7rj3272qs6jqvpc
 
 
 
-litd --httpslisten=0.0.0.0:8443 --uipassword=Genhi2002!@# --network=testnet --lnd-mode=integrated --lnd.lnddir=C:\Users\Ivan\AppData\Local\lnd --lnd.rpclisten=0.0.0.0:10009 --lnd.listen=0.0.0.0:9735 --lnd.bitcoin.node=bitcoind --lnd.bitcoind.rpcuser=1234 --lnd.bitcoind.rpcpass=1234 --lnd.bitcoind.zmqpubrawblock=tcp://127.0.0.1:18502 --lnd.bitcoind.zmqpubrawtx=tcp://127.0.0.1:18503
+litd --httpslisten=0.0.0.0:8443 --uipassword=Genhi2002!@# --network=testnet --lnd-mode=integrated --lnd.lnddir=C:\Users\Ivan\AppData\Local\lnd --lnd.rpclisten=0.0.0.0:10009 --lnd.listen=0.0.0.0:9735 --lnd.bitcoin.node=bitcoind --lnd.bitcoind.rpcuser=1234 --lnd.bitcoind.rpcpass=1234 --lnd.bitcoind.zmqpubrawblock=tcp://127.0.0.1:18502 --lnd.bitcoind.zmqpubrawtx=tcp://127.0.0.1:18503 --rpcserver=localhost:10009 --macaroonpath=C:\Users\Ivan\AppData\Local\lnd\data\chain\bitcoin\testnet\admin.macaroon
+
+
+litd --uipassword=Genhi2002!@# --network=testnet --lnd-mode=integrated --lnd.bitcoin.node=bitcoind --lnd.bitcoind.dir=C:\Users\Ivan\Bitcoin
